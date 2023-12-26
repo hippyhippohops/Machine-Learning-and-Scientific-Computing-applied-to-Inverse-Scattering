@@ -15,7 +15,7 @@ finds the estimation to the actual function that minimises the errors between th
 is called the learning stage. After the model is trained, it can be used to predict the output from unseen data. This phase is
 called the predicting/scoring stage.  Examples of Supervised Learning includes: Linear Regression. 
 
-** Notes on  Supervising Learning **
+**Notes on  Supervising Learning**
 
 For now, we will primarily focus on supervised learning. These algorithms try to find a good approximation of 
 the function that is mapping inputs  and outputs. To accomplish that, it is necessary to provide both input values and 
@@ -85,7 +85,7 @@ the interaction between the elements. Here, we will:
     -> A Simple FeedForward Neural Network 
 (iii) Learn to use Keras to train NNs
 
-CONCEPT OF PERCEPTRON
+**Concept of a Perceptron**
 
 As mentioned earlier, the concept of the perceptron is inspired by the biological neuron and it's main function is to 
 decide to block or let a signal pass. As we draw inspiration of how neurons are inspired, let's take a look at how neurons
