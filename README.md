@@ -1,7 +1,7 @@
 # Neural-Networks-Deep-Learning
 This repository is a collection of all my rough notes and coding done over the course of my PhD. It will be a melting pot of different concepts I have learnt, ideas that I have played with and fun things I do on the side. In general, it will be my expository/reference on Deep Learning/Neural Networks and Machine Learning cencepts in general. The references are cited at the bottom. 
 
-**An Introduction to Machine Learning( Supervised Learning & Unsupervised Learning)**
+# An Introduction to Machine Learning( Supervised Learning & Unsupervised Learning)
 
 ML is a variegated field with many different types of algorithms that try to learn in slightly different ways. We can divide
 them into the following different categories according to the way the algorithm performs the learning:
@@ -15,7 +15,7 @@ finds the estimation to the actual function that minimises the errors between th
 is called the learning stage. After the model is trained, it can be used to predict the output from unseen data. This phase is
 called the predicting/scoring stage.  Examples of Supervised Learning includes: Linear Regression. 
 
-# Notes on  Supervising Learning
+** Notes on  Supervising Learning **
 
 For now, we will primarily focus on supervised learning. These algorithms try to find a good approximation of 
 the function that is mapping inputs  and outputs. To accomplish that, it is necessary to provide both input values and 
@@ -67,7 +67,7 @@ try to find a policy to maximise the sum of rewards. The policy is learned by an
 environment. The environment then returns the feedback, which the agent uses to improve it's policy. The feedback is the reward
 for the action taken and it can be a positive, null, or negative number.
 
-**An Introduction to Neural Networks**
+# An Introduction to Neural Networks
 
 Artifical Neural Networks (ANN) are a set of bio-insprired algorithms. In particular, they are loosely inspired 
 by biological brains; exactly like animal brains, ANN consists of simple units (neurons) connected to each other. They 
