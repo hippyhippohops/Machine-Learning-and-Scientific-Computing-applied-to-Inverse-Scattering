@@ -101,13 +101,16 @@ function. If the total signal is greater than a certain threshold, the perceptro
 # Finite Difference Method applied to the Helmholtz Equation
 
 This started off as a class project (MATH715: Introduction to Applied Math I) for me. My group was tasked to do a project involving a real-life example of solving large systems of linear equations directly. Inspired by this set of notes (https://www.ljll.math.upmc.fr/frey/cours/UdC/ma691/ma691_ch6.pdf), we set off to create the following programs:
+
 1) Lower-Upper Triangulation
 2) Guassian Elimination
 3) Cholesky Factorisation
 4) project4 (which is the main file which discretises the ODE and calls (1)-(3) to numerically solve it)
+
 to numerically approximate the solution to the first order differential equation: -u''(x) + e^(-x*2)u(x) = x^2 in [0,1], given the boundary conditions u(0)=u(1)=0 via the Finite Difference Method (FDM). Then, when delving further into my research in Inverse Scattering Problems, I notice that FDM in particular in useful in discretizing the Helmholtz Equation (SWITCHNET: A NEURAL NETWORK MODEL FOR FORWARD AND INVERSE SCATTERING PROBLEMS). So, here I would like to expand this work into trying to numerically approximate the solutions to the Helmholtz Equation given different Sommerfeld Radiaion Condition/Rayleigh Conditions.
 
 To-do list:
+
 1) Change the code in project4 to numerically solve the Helmholtz Equation for different radiating conditions
 2) Explore using Finite Elements Method, Finite Volume Method instead of FDM. What are the advantages/disadvantages of each of this?
 3) Explore speed of getting the solution, accuracy and do some stability analysis. 
