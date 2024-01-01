@@ -101,7 +101,7 @@ function. If the total signal is greater than a certain threshold, the perceptro
 
 # Numerical PDE, Numerical Analysis and Scientific Computing
 
-# Ploting Wave Propagation in Matlab
+# Plotting Wave Propagation in Matlab
 
 Using createpde() in Matlab, this script (EMWaveScattering) was developed to play with how scatterers affect the wave propagation. To-do List:
 1) Do something similar for the helmholtz Equation.
