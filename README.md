@@ -98,7 +98,17 @@ function. If the total signal is greater than a certain threshold, the perceptro
 
 %% Refer to NeuralNetworks.py to see my notes and code on how to implement perceptrons, FFNN from scratch and using Keras. 
 
-# Finite Difference Method applied to the Helmholtz Equation
+
+# Numerical PDE, Numerical Analysis and Scientific Computing
+
+# Ploting Wave Propagation in Matlab
+
+Using createpde() in Matlab, this script (EMWaveScattering) was developed to play with how scatterers affect the wave propagation. To-do List:
+1) Do something similar for the helmholtz Equation.
+2) One of the papers that talks about using DL in ISP states we need to discretise ODE. Why is that necessary when we have this?
+
+
+## Finite Difference Method applied to the Helmholtz Equation
 
 This started off as a class project (MATH715: Introduction to Applied Math I) for me. My group was tasked to do a project involving a real-life example of solving large systems of linear equations directly. Inspired by this set of notes (https://www.ljll.math.upmc.fr/frey/cours/UdC/ma691/ma691_ch6.pdf), we set off to create the following programs:
 
