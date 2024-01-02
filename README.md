@@ -103,9 +103,14 @@ function. If the total signal is greater than a certain threshold, the perceptro
 
 # Plotting Wave Propagation in Matlab
 
-Using createpde() in Matlab, this script (EMWaveScattering) was developed to play with how scatterers affect the wave propagation. To-do List:
+Using createpde() in Matlab, this script (EMWaveScattering) was developed to play with how scatterers affect the wave propagation. 
+
+To-do List:
 1) Do something similar for the helmholtz Equation.
 2) One of the papers that talks about using DL in ISP states we need to discretise ODE. Why is that necessary when we have this?
+3) How do you construct the geometry?
+4) Figure out the error in output of the magnetic field
+5) result.ElectricField.x is a 11540 x 12 matrix. Why is only the last 2 columns being displayed?? 
 
 
 ## Finite Difference Method applied to the Helmholtz Equation
@@ -123,4 +128,12 @@ To-do list:
 
 1) Change the code in project4 to numerically solve the Helmholtz Equation for different radiating conditions
 2) Explore using Finite Elements Method, Finite Volume Method instead of FDM. What are the advantages/disadvantages of each of this?
-3) Explore speed of getting the solution, accuracy and do some stability analysis. 
+3) Explore speed of getting the solution, accuracy and do some stability analysis.
+
+
+## Computing Scattered Field Data - Using Moment of Method
+
+The script in Plotting Wave Propagation in Matlab computes the electric field and magnetic field data at the nodes of the mesh constructed. From these data, we would like to find out the scattered field data at a selected subset of nodes so that these data can be used in the inverse scattering problem. Here, I try to construct the algorithm from scratch using the paper: Akhlesh Lakhtakia - Strong and Weak Forms of the Method of Moments and the Coupled Dipole Method for Scattering of Time-Harmonic Electromagnetic Fields. 
+
+To-do List:
+1) Figure out how do we discretize the scatterer into a finite disjoint union and pick a sample point from each subset so the computations can be done.
