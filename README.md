@@ -1,5 +1,5 @@
-# Neural-Networks-Deep-Learning
-This repository is a collection of all my rough notes and coding done over the course of my PhD. It will be a melting pot of different concepts I have learnt, ideas that I have played with and fun things I do on the side. In general, it will be my expository/reference on Deep Learning/Neural Networks and Machine Learning cencepts in general. The references are cited at the bottom. 
+# About this repository 
+This repository is a collection of all my rough notes and coding done over the course of my PhD pertaining to machine learning, deep learning and scientific computing. the topics range from general areas in machine learning & scientific computing to these principles applied to Inverse Scattering Problems. 
 
 # An Introduction to Machine Learning( Supervised Learning & Unsupervised Learning)
 
